@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D6C7F212450372D001FE80C /* harray_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C7F172450372D001FE80C /* harray_ios_sdk.framework */; };
+		1D6C7F212450372D001FE80C /* rb_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C7F172450372D001FE80C /* rb_ios_sdk.framework */; };
 		1D6C7F282450372D001FE80C /* harray_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6C7F1A2450372D001FE80C /* harray_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D6C7F3324503782001FE80C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C7F3224503782001FE80C /* Constants.swift */; };
 		1D6C7F38245037BC001FE80C /* SessionContextHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C7F35245037BC001FE80C /* SessionContextHolder.swift */; };
@@ -106,10 +106,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D6C7F172450372D001FE80C /* harray_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = harray_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6C7F172450372D001FE80C /* rb_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = rb_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6C7F1A2450372D001FE80C /* harray_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = harray_ios_sdk.h; sourceTree = "<group>"; };
 		1D6C7F1B2450372D001FE80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D6C7F202450372D001FE80C /* harray-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "harray-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6C7F202450372D001FE80C /* rb-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rb-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6C7F272450372D001FE80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6C7F3224503782001FE80C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1D6C7F35245037BC001FE80C /* SessionContextHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionContextHolder.swift; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6C7F212450372D001FE80C /* harray_ios_sdk.framework in Frameworks */,
+				1D6C7F212450372D001FE80C /* rb_ios_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +189,8 @@
 		1D6C7F0D2450372D001FE80C = {
 			isa = PBXGroup;
 			children = (
-				1D6C7F192450372D001FE80C /* harray-ios-sdk */,
-				1D6C7F242450372D001FE80C /* harray-ios-sdkTests */,
+				1D6C7F192450372D001FE80C /* rb-ios-sdk */,
+				1D6C7F242450372D001FE80C /* rb-ios-sdkTests */,
 				1D6C7F182450372D001FE80C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -198,13 +198,13 @@
 		1D6C7F182450372D001FE80C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6C7F172450372D001FE80C /* harray_ios_sdk.framework */,
-				1D6C7F202450372D001FE80C /* harray-ios-sdkTests.xctest */,
+				1D6C7F172450372D001FE80C /* rb_ios_sdk.framework */,
+				1D6C7F202450372D001FE80C /* rb-ios-sdkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D6C7F192450372D001FE80C /* harray-ios-sdk */ = {
+		1D6C7F192450372D001FE80C /* rb-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
 				1D6C7F51245037CF001FE80C /* RB.swift */,
@@ -219,10 +219,10 @@
 				75F798C46AF94CC7C85D387F /* notification */,
 				75F79E9ECF0F2953DBA50B7E /* http */,
 			);
-			path = "harray-ios-sdk";
+			path = "rb-ios-sdk";
 			sourceTree = "<group>";
 		};
-		1D6C7F242450372D001FE80C /* harray-ios-sdkTests */ = {
+		1D6C7F242450372D001FE80C /* rb-ios-sdkTests */ = {
 			isa = PBXGroup;
 			children = (
 				C2EB054C263046FA004EF82A /* common */,
@@ -236,7 +236,7 @@
 				75F798F30A99647A2B7E20EE /* notification */,
 				75F799521B408D26F0F895BE /* http */,
 			);
-			path = "harray-ios-sdkTests";
+			path = "rb-ios-sdkTests";
 			sourceTree = "<group>";
 		};
 		1D6C7F3124503782001FE80C /* common */ = {
@@ -433,9 +433,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D6C7F162450372D001FE80C /* harray-ios-sdk */ = {
+		1D6C7F162450372D001FE80C /* rb-ios-sdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6C7F2B2450372D001FE80C /* Build configuration list for PBXNativeTarget "harray-ios-sdk" */;
+			buildConfigurationList = 1D6C7F2B2450372D001FE80C /* Build configuration list for PBXNativeTarget "rb-ios-sdk" */;
 			buildPhases = (
 				1D6C7F122450372D001FE80C /* Headers */,
 				1D6C7F132450372D001FE80C /* Sources */,
@@ -446,14 +446,14 @@
 			);
 			dependencies = (
 			);
-			name = "harray-ios-sdk";
+			name = "rb-ios-sdk";
 			productName = "harray-ios-sdk";
-			productReference = 1D6C7F172450372D001FE80C /* harray_ios_sdk.framework */;
+			productReference = 1D6C7F172450372D001FE80C /* rb_ios_sdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1D6C7F1F2450372D001FE80C /* harray-ios-sdkTests */ = {
+		1D6C7F1F2450372D001FE80C /* rb-ios-sdkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6C7F2E2450372D001FE80C /* Build configuration list for PBXNativeTarget "harray-ios-sdkTests" */;
+			buildConfigurationList = 1D6C7F2E2450372D001FE80C /* Build configuration list for PBXNativeTarget "rb-ios-sdkTests" */;
 			buildPhases = (
 				1D6C7F1C2450372D001FE80C /* Sources */,
 				1D6C7F1D2450372D001FE80C /* Frameworks */,
@@ -464,9 +464,9 @@
 			dependencies = (
 				1D6C7F232450372D001FE80C /* PBXTargetDependency */,
 			);
-			name = "harray-ios-sdkTests";
+			name = "rb-ios-sdkTests";
 			productName = "harray-ios-sdkTests";
-			productReference = 1D6C7F202450372D001FE80C /* harray-ios-sdkTests.xctest */;
+			productReference = 1D6C7F202450372D001FE80C /* rb-ios-sdkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -476,7 +476,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = xennio;
 				TargetAttributes = {
 					1D6C7F162450372D001FE80C = {
@@ -489,7 +489,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D6C7F112450372D001FE80C /* Build configuration list for PBXProject "harray-ios-sdk" */;
+			buildConfigurationList = 1D6C7F112450372D001FE80C /* Build configuration list for PBXProject "rb-ios-sdk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -502,8 +502,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6C7F162450372D001FE80C /* harray-ios-sdk */,
-				1D6C7F1F2450372D001FE80C /* harray-ios-sdkTests */,
+				1D6C7F162450372D001FE80C /* rb-ios-sdk */,
+				1D6C7F1F2450372D001FE80C /* rb-ios-sdkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -629,7 +629,7 @@
 /* Begin PBXTargetDependency section */
 		1D6C7F232450372D001FE80C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D6C7F162450372D001FE80C /* harray-ios-sdk */;
+			target = 1D6C7F162450372D001FE80C /* rb-ios-sdk */;
 			targetProxy = 1D6C7F222450372D001FE80C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -688,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -748,7 +748,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -770,14 +770,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "harray-ios-sdk/Info.plist";
+				INFOPLIST_FILE = "rb-ios-sdk/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.xenn.harray-ios-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.xenn.rb-ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -794,14 +796,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "harray-ios-sdk/Info.plist";
+				INFOPLIST_FILE = "rb-ios-sdk/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.xenn.harray-ios-sdk";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.xenn.rb-ios-sdk";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -852,7 +856,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6C7F112450372D001FE80C /* Build configuration list for PBXProject "harray-ios-sdk" */ = {
+		1D6C7F112450372D001FE80C /* Build configuration list for PBXProject "rb-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6C7F292450372D001FE80C /* Debug */,
@@ -861,7 +865,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D6C7F2B2450372D001FE80C /* Build configuration list for PBXNativeTarget "harray-ios-sdk" */ = {
+		1D6C7F2B2450372D001FE80C /* Build configuration list for PBXNativeTarget "rb-ios-sdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6C7F2C2450372D001FE80C /* Debug */,
@@ -870,7 +874,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D6C7F2E2450372D001FE80C /* Build configuration list for PBXNativeTarget "harray-ios-sdkTests" */ = {
+		1D6C7F2E2450372D001FE80C /* Build configuration list for PBXNativeTarget "rb-ios-sdkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6C7F2F2450372D001FE80C /* Debug */,
